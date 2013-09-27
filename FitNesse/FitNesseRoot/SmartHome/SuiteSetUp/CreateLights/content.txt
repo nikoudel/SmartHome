@@ -1,0 +1,9 @@
+!|Table:Row              |CreateDevice            |
+|Id?                     |RoomId     |DeviceType  |
+|$kitchenCeilingLight=   |$kitchen   |CeilingLight|
+|$kitchenSpotLight1=     |$kitchen   |LedSpotLight|
+|$kitchenSpotLight2=     |$kitchen   |LedSpotLight|
+|$kitchenSpotLight3=     |$kitchen   |LedSpotLight|
+|$saunaLight=            |$sauna     |SteamLight  |
+|$livingRoomCeilingLight=|$livingRoom|CeilingLight|
+|$livingRoomTableLight=  |$livingRoom|TableLight  |

@@ -1,0 +1,3 @@
+!|Table:Row  |CreateDevice     |
+|Id          |RoomId|DeviceType|
+|$saunaStove=|$sauna|SaunaStove|

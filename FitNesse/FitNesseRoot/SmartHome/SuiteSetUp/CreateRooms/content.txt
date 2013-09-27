@@ -1,0 +1,5 @@
+!|Table:Row  |CreateRoom|
+|Id          |RoomType  |
+|$kitchen=   |Kitchen   |
+|$sauna=     |Sauna     |
+|$livingRoom=|LivingRoom|

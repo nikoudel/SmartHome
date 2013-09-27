@@ -1,0 +1,10 @@
+!define TEST_SYSTEM {slim}
+
+!path .\lib
+!path .\lib\scala-library.jar
+!path .\lib\easyfit_2.10-0.1.jar
+!path .\lib\log4j-api-2.0-beta9.jar
+!path .\lib\log4j-core-2.0-beta9.jar
+!path .\lib\filters_2.10-1.0.jar
+
+!contents

@@ -1,0 +1,47 @@
+1. turn all kitchen lights on
+
+!|Table:Row          |ChangeDeviceState|
+|Id                  |NewState         |
+|$kitchenCeilingLight|On               |
+|$kitchenSpotLight1  |On               |
+|$kitchenSpotLight2  |On               |
+|$kitchenSpotLight3  |On               |
+
+2. list all the kitchen lights and ensure they are on
+
+!|Table:Map|$query  |
+|RoomId    |$kitchen|
+
+!|Table:Query        |GetDevices|$query|
+|Id                  |DeviceState      |
+|$kitchenCeilingLight|On               |
+|$kitchenSpotLight1  |On               |
+|$kitchenSpotLight2  |On               |
+|$kitchenSpotLight3  |On               |
+
+3. turn a couple of lights off
+
+!|Table:Row          |ChangeDeviceState|
+|Id                  |NewState         |
+|$kitchenCeilingLight|Off              |
+|$kitchenSpotLight3  |Off              |
+
+4. check the new state
+
+!|Table:Query        |GetDevices|$query|
+|Id                  |DeviceState      |
+|$kitchenCeilingLight|Off              |
+|$kitchenSpotLight1  |On               |
+|$kitchenSpotLight2  |On               |
+|$kitchenSpotLight3  |Off              |
+
+5. list all the kitchen lights which are on
+
+!|Table:Map |$query  |
+|RoomId     |$kitchen|
+|DeviceState|On      |
+
+!|Table:Query      |GetDevices|$query|
+|Id                |DeviceState      |
+|$kitchenSpotLight1|On               |
+|$kitchenSpotLight2|On               |
