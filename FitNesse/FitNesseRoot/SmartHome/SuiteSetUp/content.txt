@@ -1,11 +1,7 @@
 !|Import       |
 |easyfit.tables|
-
-Initialize filters.
-
 !|Table:ActualFilter     |
 |tf|filters.TimeFormatter|
-
 !include -c .SmartHome.SuiteSetUp.CreateRooms
 !include -c .SmartHome.SuiteSetUp.CreateLights
 !include -c .SmartHome.SuiteSetUp.CreateOtherDevices

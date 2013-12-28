@@ -1,5 +1,5 @@
 !|Table:Row              |CreateDevice            |
-|Id?                     |RoomId     |DeviceType  |
+|Id                      |RoomId     |DeviceType  |
 |$kitchenCeilingLight=   |$kitchen   |CeilingLight|
 |$kitchenSpotLight1=     |$kitchen   |LedSpotLight|
 |$kitchenSpotLight2=     |$kitchen   |LedSpotLight|

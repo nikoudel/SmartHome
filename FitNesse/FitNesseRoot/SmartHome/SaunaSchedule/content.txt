@@ -5,16 +5,16 @@
 |Tuesday   |18:30|20:30|$sauna|
 |Friday    |19:00|21:00|$sauna|
 
-2. test the schedule (24th Sep 2013 is Tuesday)
+2. test the schedule (24th Sep 2013 was Tuesday)
 
 Note: the SUT returns !-DateTime-! in a different format, so a filter (tf) needs to be applied to the column before matching expected values to actual ones.
 
 !|Table:Row|GetSaunaState                              |
 |Sauna     |tf:DateTime     |Stove?|Light?|Temperature?|
-|$sauna    |2013-09-24 18:29|Off   |Off   |22          |
-|$sauna    |2013-09-24 18:30|On    |Off   |22          |
-|$sauna    |2013-09-24 18:45|On    |Off   |56          |
-|$sauna    |2013-09-24 20:30|Off   |Off   |90          |
+|$sauna    |2013-09-24 18:29|Off   |      |22          |
+|$sauna    |2013-09-24 18:30|On    |      |22          |
+|$sauna    |2013-09-24 18:45|On    |      |56          |
+|$sauna    |2013-09-24 20:30|Off   |      |90          |
 |$sauna    |2013-09-24 21:00|Off   |Off   |75          |
 |$sauna    |2013-09-25 19:30|Off   |Off   |22          |
 |$sauna    |2013-09-27 19:20|On    |On    |68          |
