@@ -1,7 +1,8 @@
 !|Import       |
 |easyfit.tables|
-!|Table:Configuration                            |
-|baseURL|http://localhost:56473/(controller).json|
+!|Table:Configuration                                |
+|baseURL    |http://localhost:56473/(controller).json|
+|logFilePath|easyfit.log                             |
 !|Table:ActualFilter     |
 |tf|filters.TimeFormatter|
 !include -c .SmartHome.SuiteSetUp.CreateRooms
