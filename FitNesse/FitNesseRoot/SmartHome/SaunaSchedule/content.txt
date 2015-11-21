@@ -10,7 +10,7 @@
 Note: the SUT returns !-DateTime-! in a different format, so a filter (tf) needs to be applied to the column before matching expected values to actual ones.
 
 !|Table:Row|GetSaunaState                              |
-|Sauna     |tf:DateTime     |Stove?|Light?|Temperature?|
+|Sauna     |DateTime        |Stove?|Light?|Temperature?|
 |$sauna    |2013-09-24 18:29|Off   |      |22          |
 |$sauna    |2013-09-24 18:30|On    |      |22          |
 |$sauna    |2013-09-24 18:45|On    |      |56          |

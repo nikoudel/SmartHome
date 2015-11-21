@@ -1,6 +1,5 @@
 !define TEST_SYSTEM {slim}
 
 !path .\lib\easyfit.jar
-!path .\lib\filters_2.10-1.0.jar
 
 !contents
