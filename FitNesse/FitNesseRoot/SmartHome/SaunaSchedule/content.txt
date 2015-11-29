@@ -7,8 +7,6 @@
 
 2. test the schedule (24th Sep 2013 was Tuesday)
 
-Note: the SUT returns !-DateTime-! in a different format, so a filter (tf) needs to be applied to the column before matching expected values to actual ones.
-
 !|Table:Row|GetSaunaState                              |
 |Sauna     |DateTime        |Stove?|Light?|Temperature?|
 |$sauna    |2013-09-24 18:29|Off   |      |22          |
